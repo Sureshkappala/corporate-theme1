@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leave Request</title>
+    <link rel="stylesheet" href="css/staff.css">
+</head>
+<body>
+
+<div class="sidebar">
+
+    <a href="staff-dashboard.html" class="logo">
+        <span class="logo-icon">S</span>
+
+        <div class="logo-text">
+            <h2>STACKLY</h2>
+        </div>
+    </a>
+
+    <ul>
+        <li><a href="staff-dashboard.html">🏠 Dashboard</a></li>
+        <li><a href="tasks.html">📋 My Tasks</a></li>
+        <li><a href="attendance.html">🕒 Attendance</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="leave.html">📝 Leave Request</a></li>
+        <li><a href="login.html">🚪 Logout</a></li>
+    </ul>
+
+</div>
+
+<div class="main-content">
+
+    <div class="navbar">
+        <h2>Leave Request</h2>
+    </div>
+
+    <div class="leave-form">
+
+        <h3>Apply Leave</h3>
+
+        <label>Leave Type</label>
+        <select>
+            <option>Casual Leave</option>
+            <option>Sick Leave</option>
+            <option>Emergency Leave</option>
+        </select>
+
+        <label>From Date</label>
+        <input type="date">
+
+        <label>To Date</label>
+        <input type="date">
+
+        <label>Reason</label>
+        <textarea rows="4"></textarea>
+
+        <button>Submit Request</button>
+
+    </div>
+
+    <div class="table-section">
+
+        <h2>Recent Leave Requests</h2>
+
+        <table>
+
+            <tr>
+                <th>Leave Type</th>
+                <th>Days</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>Casual Leave</td>
+                <td>2</td>
+                <td>Approved</td>
+            </tr>
+
+            <tr>
+                <td>Sick Leave</td>
+                <td>1</td>
+                <td>Pending</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+</body>
+</html>

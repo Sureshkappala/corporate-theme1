@@ -54,3 +54,13 @@ if (loginForm) {
     });
 
 }
+
+
+// ==========================
+// Mobile Hamburger Menu
+// ==========================
+
+function toggleMenu() {
+    document.getElementById("navLinks").classList.toggle("active");
+    document.body.classList.toggle("menu-open");
+}

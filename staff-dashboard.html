@@ -5,74 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Staff Dashboard</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/staff.css">
 </head>
 <body>
+    <div class="sidebar">
+        
+
+    <div class="logo">
+        <span class="logo-icon">S</span>
+
+        <div class="logo-text">
+            <h2>STACKLY</h2>
+        </div>
+    </div>
+
+    <ul>
+        <li><a href="staff-dashboard.html">🏠 Dashboard</a></li>
+        <li><a href="tasks.html">📋 My Tasks</a></li>
+        <li><a href="attendance.html">🕒 Attendance</a></li>
+        <li><a href="profile.html">👤 Profile</a></li>
+        <li><a href="leave.html">📝 Leave Request</a></li>
+        <li><a href="login.html">🚪 Logout</a></li>
+    </ul>
+
+</div>
+<div class="main-content">
+
 
     <div class="navbar">
         <h2>Staff Dashboard</h2>
-        <a href="login.html" class="logout">Logout</a>
+        
+    </div>
+<div class="cards">
+
+    <div class="card">
+    <h3>25</h3>
+    <p>Assigned Tasks</p>
+</div>
+
+<div class="card">
+    <h3>18</h3>
+    <p>Completed Tasks</p>
+</div>
+
+<div class="card">
+    <h3>95%</h3>
+    <p>Attendance</p>
+</div>
+
+<div class="card">
+    <h3>2</h3>
+    <p>Leave Requests</p>
+</div>
+
+</div>
+<div class="staff-grid">
+
+    <div class="staff-box">
+        <h3>📋 My Tasks</h3>
+        <p>3 Pending Tasks</p>
     </div>
 
-    <div class="cards">
-
-        <div class="card">
-            <h3>25</h3>
-            <p>Total Tasks</p>
-        </div>
-
-        <div class="card">
-            <h3>18</h3>
-            <p>Completed</p>
-        </div>
-
-        <div class="card">
-            <h3>7</h3>
-            <p>Pending</p>
-        </div>
-
-        <div class="card">
-            <h3>95%</h3>
-            <p>Attendance</p>
-        </div>
-
+    <div class="staff-box">
+        <h3>🕒 Attendance</h3>
+        <p>95% Attendance Rate</p>
     </div>
 
-    <div class="task-section">
-
-        <h2>My Tasks</h2>
-
-        <table>
-            <tr>
-                <th>ID</th>
-                <th>Task Name</th>
-                <th>Status</th>
-                <th>Deadline</th>
-            </tr>
-
-            <tr>
-                <td>001</td>
-                <td>Create Home Page</td>
-                <td>Completed</td>
-                <td>10-Jun-2026</td>
-            </tr>
-
-            <tr>
-                <td>002</td>
-                <td>Portfolio Section</td>
-                <td>In Progress</td>
-                <td>12-Jun-2026</td>
-            </tr>
-
-            <tr>
-                <td>003</td>
-                <td>Contact Form</td>
-                <td>Pending</td>
-                <td>15-Jun-2026</td>
-            </tr>
-        </table>
-
+    <div class="staff-box">
+        <h3>📝 Leave Requests</h3>
+        <p>2 Requests Pending</p>
     </div>
+
+    <div class="staff-box">
+        <h3>👤 Profile</h3>
+        <p>Frontend Developer</p>
+    </div>
+
+</div>
 
 </body>
 </html>
