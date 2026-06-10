@@ -93,4 +93,20 @@ counters.forEach(counter => {
 
     updateCounter();
 });
+// ==========================
+// 404 Page Back Button
+// ==========================
 
+
+
+function openDashboard() {
+
+    const previousPage = localStorage.getItem("previousPage");
+
+    if (previousPage) {
+        window.location.href = previousPage;
+    } else {
+        window.location.href = "login.html";
+    }
+
+}

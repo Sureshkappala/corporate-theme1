@@ -1537,3 +1537,41 @@ th,td{
         display:none;
     }
 }
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:20px;
+    flex-wrap:wrap;
+}
+
+.home-btn,
+.dashboard-btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#00C896;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.home-btn:hover,
+.dashboard-btn:hover{
+    background:#00a87a;
+    transform:translateY(-2px);
+}
+.report-btn{
+    display:inline-block;
+    padding:10px 18px;
+    background:#4F46E5;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+    font-weight:600;
+}
+
+.report-btn:hover{
+    background:#3730a3;
+}
