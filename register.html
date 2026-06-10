@@ -27,9 +27,15 @@
 
             <input type="email" placeholder="Email Address" required>
 
-            <input type="password" placeholder="Password" required>
+            <div class="password-box">
+    <input type="password" id="password" placeholder="Password" required>
+    <i class="fa-solid fa-eye" onclick="togglePassword('password', this)"></i>
+</div>
 
-            <input type="password" placeholder="Confirm Password" required>
+            <div class="password-box">
+    <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+    <i class="fa-solid fa-eye" onclick="togglePassword('confirmPassword', this)"></i>
+</div>
 
             <button type="submit">Register</button>
 
