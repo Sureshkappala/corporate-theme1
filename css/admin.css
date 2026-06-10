@@ -244,3 +244,15 @@ th,td{
     }
 
 }
+.report-btn{
+    background:#00C896;
+    color:white;
+    padding:10px 15px;
+    border-radius:6px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+.report-btn:hover{
+    background:#00a87a;
+}

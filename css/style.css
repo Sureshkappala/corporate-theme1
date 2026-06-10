@@ -1488,23 +1488,52 @@ th,td{
     font-size:18px;
     color:#555;
 }
-.password-box{
-    position:relative;
-    margin-bottom:15px;
+.menu-toggle{
+    display:none;
 }
 
-.password-box input{
-    width:100%;
-    padding:12px;
-    padding-right:45px;
-    box-sizing:border-box;
-}
+@media (max-width:768px){
 
-.password-box i{
-    position:absolute;
-    right:15px;
-    top:50%;
-    transform:translateY(-50%);
+    .menu-toggle{
+        display:block;
+        font-size:30px;
+        color:white;
+        cursor:pointer;
+    }
+
+    .contact-btn{
+        display:none;
+    }
+}
+.menu-toggle{
+    display:none;
+    font-size:30px;
     cursor:pointer;
-    color:#666;
+}
+
+@media (max-width:768px){
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+        display:none;
+        position:absolute;
+        top:70px;
+        right:0;
+        width:100%;
+        background:#0A2540;
+        flex-direction:column;
+        text-align:center;
+        padding:20px 0;
+    }
+
+    .nav-links.active{
+        display:flex;
+    }
+
+    .contact-btn{
+        display:none;
+    }
 }
